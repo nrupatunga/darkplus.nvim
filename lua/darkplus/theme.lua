@@ -59,9 +59,10 @@ theme.set_highlights = function()
 	hl(0, "Question", { fg = c.orange, bg = "NONE" })
 	hl(0, "EndOfBuffer", { fg = c.bg, bg = "NONE" })
 	hl(0, "NonText", { fg = c.dark_gray, bg = "NONE" })
-	hl(0, "TabLine", { fg = c.bg, bg = "#cc6666" })
-	hl(0, "TabLineSel", { fg = c.fg, bg = c.line })
-	hl(0, "TabLineFill", { fg = c.line, bg = c.line })
+	hl(0, "TabLineSel", { fg = c.bg, bg = "#cc6666" })
+	hl(0, "TabLine", { fg = c.fg, bg = c.line })
+	--hl(0, "TabLineFill", { fg = c.line, bg = c.line })
+	hl(0, "TabLineFill", { fg = "#000000", bg = "#000000"})
 
 	-- Code
 	hl(0, "Comment", { fg = c.context, bg = "NONE" })
@@ -297,7 +298,8 @@ theme.set_highlights = function()
 	hl(0, "QuickScopeSecondary", { fg = "#00dfff", bg = "NONE", underline = true })
 
 	-- Telescope
-	hl(0, "TelescopeSelection", { fg = "NONE", bg = c.ui2_blue })
+	--hl(0, "TelescopeSelection", { fg = "NONE", bg = c.ui2_blue })
+	hl(0, "TelescopeSelection", { fg = "NONE", bg = c.visual })
 	--hl(0, "TelescopeSelection", { fg = "#000000", bg = c.light_gray })
 	hl(0, "TelescopeSelectionCaret", { fg = c.red, bg = c.ui2_blue })
 	hl(0, "TelescopeMatching", { fg = c.info, bg = "NONE", bold = true, italic = true })

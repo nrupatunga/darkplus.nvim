@@ -29,6 +29,7 @@ local colors = {
   sign_delete = "#94151b",
   sign_add_alt = "#73C991",
   sign_change_alt = "#CCA700",
+  visual = "#42566f",
   error = "#F44747",
   warn = "#ff8800",
   info = "#FFCC66",
